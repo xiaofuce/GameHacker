@@ -13,48 +13,114 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\INJECT">
+      <UniqueIdentifier>{c5113d4a-d936-4f71-a88d-5c8e07dd685b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\INJECT">
+      <UniqueIdentifier>{c50acfa0-63c1-45cc-bea0-e618f03e8822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\INJECTCHECK">
+      <UniqueIdentifier>{9a3cec3f-b524-4640-9b8d-82d6189d3a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\INJECTCHECK">
+      <UniqueIdentifier>{653baa9d-5938-4e00-8e15-8923ddd3d34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\RAN">
+      <UniqueIdentifier>{9b1becb5-d58f-4c0a-a9f9-b20bd4c64ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RAN">
+      <UniqueIdentifier>{1cf8566b-39aa-4fe1-8e06-68830a54a8a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Main">
+      <UniqueIdentifier>{4f94582f-4e4a-419e-ab7b-4e64902a0763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Main">
+      <UniqueIdentifier>{609dd8f7-d623-415a-985c-c78e7012f769}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameHacker.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="GameHackerDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="framework.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="CWndAddGame.h">
+      <Filter>头文件\INJECT</Filter>
     </ClInclude>
     <ClInclude Include="CWndINJ.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\INJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="INJCET.h">
+      <Filter>头文件\INJECT</Filter>
     </ClInclude>
     <ClInclude Include="CWndINC.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\INJECTCHECK</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndProcess.h">
+      <Filter>头文件\INJECTCHECK</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndMouleList.h">
+      <Filter>头文件\INJECTCHECK</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndModAnly.h">
+      <Filter>头文件\INJECTCHECK</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndRAN.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHacker.h">
+      <Filter>头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHackerDlg.h">
+      <Filter>头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndAddClass.h">
+      <Filter>头文件\RAN</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameHacker.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="GameHackerDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="CWndAddGame.cpp">
+      <Filter>源文件\INJECT</Filter>
     </ClCompile>
     <ClCompile Include="CWndINJ.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\INJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="INJCET.cpp">
+      <Filter>源文件\INJECT</Filter>
     </ClCompile>
     <ClCompile Include="CWndINC.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\INJECTCHECK</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndProcess.cpp">
+      <Filter>源文件\INJECTCHECK</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndMouleList.cpp">
+      <Filter>源文件\INJECTCHECK</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndModAnly.cpp">
+      <Filter>源文件\INJECTCHECK</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndRAN.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHacker.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHackerDlg.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndAddClass.cpp">
+      <Filter>源文件\RAN</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -71,5 +137,8 @@
     <Image Include="res\GameHacker.ico">
       <Filter>资源文件</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Version.txt" />
   </ItemGroup>
 </Project>
